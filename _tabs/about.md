@@ -17,7 +17,6 @@ Estudiante de 4to año de Licenciatura en Sistemas en la Universidad Nacional de
 
 Si quieres saber más sobre mi trabajo o tienes un proyecto interesante en el que pueda colaborar, no dudes en contactarme.
 
-🌐 **Sitio web**: [Tu enlace aquí]  
 📧 **Email**: jeremiaspanozzo@gmail.com  
 📍 **Ubicación**: Entre Ríos, Argentina
 
