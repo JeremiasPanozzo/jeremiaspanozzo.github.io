@@ -5,8 +5,10 @@ import tailwindcss from "@tailwindcss/vite";
 // https://astro.build/config
 export default defineConfig({
   site: 'https://jeremiaspanozzo.github.io',
+  build: {
+    nojekyll: true
+  },
   vite: {
     plugins: [tailwindcss()],
   },
-  base: 'jeremiaspanozzo.github.io'
 });
