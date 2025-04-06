@@ -1,16 +1,16 @@
 // Set any item to undefined to remove it from the site or to use the default value
+const BASE = import.meta.env.BASE_URL;
 
 export const GLOBAL = {
   // Site metadata
-  username: "Zaggonaut",
-  rootUrl: "https://zaggonaut.dev",
-  shortDescription: "Retro-Inspired Theme &<br /> Built for Astro",
-  longDescription: "Zaggonaut is a retro-inspired theme for Astro, built using TypeScript, TailwindCSS, and Astro.",
+  username: "Jeremias Panozzo",
+  rootUrl: "https://jeremiaspanozzo.github.io",
+  shortDescription: "Cybersecurity | Hakcing",
+  longDescription: "Personal website.",
   
   // Social media links
-  githubProfile: "https://github.com/RATIU5/zaggonaut",
-  twitterProfile: "https://twitter.com/",
-  linkedinProfile: "https://www.linkedin.com/",
+  githubProfile: "https://github.com/JeremiasPanozzo",
+  linkedinProfile: "https://www.linkedin.com/in/jeremiaspanozzo",
   
   // Common text names used throughout the site
   articlesName: "Articles",
@@ -32,12 +32,12 @@ export const GLOBAL = {
   projectLongDescription: "All of my projects, including both frontend and full-stack applications.",
 
   // Profile image
-  profileImage: "michael-dam-unsplash.webp",
+  profileImage: `${BASE}michael-dam-unsplash.webp`,
 
   // Menu items
   menu: {
-    home: "/",
-    projects: "/projects",
-    blog: "/blog",
+    home: BASE,
+    projects: `${BASE}/projects`,
+    blog: `${BASE}/blog`,
   }
 };
