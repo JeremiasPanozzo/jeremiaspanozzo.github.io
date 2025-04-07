@@ -6,9 +6,6 @@ import tailwindcss from "@tailwindcss/vite";
 export default defineConfig({
   site: 'https://jeremiaspanozzo.github.io',
   base: '/jeremiaspanozzo.github.io',
-  build: {
-    nojekyll: true
-  },
   vite: {
     plugins: [tailwindcss()],
   },
